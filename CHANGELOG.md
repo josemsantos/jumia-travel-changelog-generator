@@ -9,6 +9,7 @@
 ---
 
 ## [V0.5.1](https://github.com/josemsantos/jumia-travel-changelog-generator/milestone/2) (2017-04-05)
+[Full Changelog](https://github.com/josemsantos/jumia-travel-changelog-generator/compare/V0.5.0...V0.5.1)
 
 **Improvements:**
 
@@ -17,7 +18,6 @@
 ---
 
 ## [V0.5.0](https://github.com/josemsantos/jumia-travel-changelog-generator/milestone/1) (2017-04-05)
-[Full Changelog](https://github.com/josemsantos/jumia-travel-changelog-generator/compare/V0.5.2...V0.5.0)
 
 **Improvements:**
 

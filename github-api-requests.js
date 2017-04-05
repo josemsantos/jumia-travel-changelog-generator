@@ -2,8 +2,6 @@ var needle = require('needle');
 
 module.exports = function request() {
     var _api_end_point = "https://api.github.com/";
-    //"06559423447a230947d9484cf29974fc3f890f76"
-    //JovagoAIG/mobilix
     var _per_page = 100;
     var _options = {};
     var _owner_repo = "";

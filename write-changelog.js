@@ -2,32 +2,31 @@ var json2md = require("json2md");
 var writeFile = require('write');
 var fs = require('fs');
 
-json2md.converters.fullloglink = function (input, json2md) {
-   return  "[Full Changelog](https://github.com/JovagoAIG/mobilix/compare/" + input.base + "..." + input.release + ")";
-};
-
-json2md.converters.release = function (input, json2md) {
-    var _date;
-    if (input.date) {
-        _date = input.date.split('T')[0];
-    } else {
-        _date = "Future release";
-    }
-    
-    return  "## [" + input.title + "]" + "(" + input.url + ")" + " (" + _date + ")";
-};
-
-json2md.converters.issue = function (input, json2md) {
-   return  "- " + input.description + " [\#" + input.number + "](" + input.url + ") ([" + input.user.login + "](" + input.user.profile + "))";
-};
-
-
-
-module.exports = function writeChangeLog() {
+module.exports = function writeChangeLog(ownerRepo) {
     var _data = false;
     var _baseLog = "";
     var _dataMap = [];
     var _issuesLabels = ["<strong>Improvements:</strong>", "<strong>Fixes:</strong>", "<strong>Others:</strong>"];
+
+    json2md.converters.fullloglink = function (input, json2md) {
+        return  "[Full Changelog](https://github.com/" + ownerRepo + "/compare/" + input.base + "..." + input.release + ")";
+    };
+
+    json2md.converters.release = function (input, json2md) {
+        var _date;
+        if (input.date) {
+            _date = input.date.split('T')[0];
+        } else {
+            _date = "Future release";
+        }
+        
+        return  "## [" + input.title + "]" + "(" + input.url + ")" + " (" + _date + ")";
+    };
+
+    json2md.converters.issue = function (input, json2md) {
+        return  "- " + input.description + " [\#" + input.number + "](" + input.url + ") ([" + input.user.login + "](" + input.user.profile + "))";
+    };
+
     function _mapData() {
         _dataMap.push({
             h1: "Changelog",

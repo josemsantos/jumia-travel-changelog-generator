@@ -6,12 +6,14 @@ var Client = require('./github-api-requests');
 var Writer = require('./write-changelog');
 
 var client = new Client();
-var dhandler = new Datahandler();
-var writer = new Writer();
-
 client.setGithubToken(argv.token || argv.t);
 client.setOwnerRepo(argv.repo || argv.r);
+
+var dhandler = new Datahandler();
+
+var writer = new Writer(argv.repo || argv.r);
 writer.setBaseLog(argv.baselog || argv.b);
+
 
 client.getMilestones().then(function(response){
     if (response.body.length) {

@@ -1,7 +1,7 @@
 {
   "name": "jumia-travel-changelog",
-  "version": "0.5.0",
-  "description": "CHANGELOG.md generator. Based on github pull requests it will generate a changelog file for each milestones. Future milestones are considered future releases.",
+  "version": "0.5.2",
+  "description": "This tool is meant to automatize the process of creating and maintening a CHANGELOG.md file. Based on github pull requests and milestones it will report a complete list of releases with all events. All future milestones are considered future releases.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

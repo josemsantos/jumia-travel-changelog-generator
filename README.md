@@ -2,16 +2,16 @@
 Small but efficient tool to generate a CHANGELOG.md file for cross functional teams
 
 ## The CHANGELOG.md generator
-This tool is meant to generate automatically a extended and useful CHANGELOG.md report.
-Each release is based on a milestone version and due date.
+This tool is meant to generate automatically an extended and useful CHANGELOG.md report.
+Each release is based on a milestone version and the due date.
 
 ## Jumia Travel Submission Guidelines
-In order to generate a precise report some guideline are requested to be followed:
+In order to generate a precise report, some guideline are requested to be followed:
 
 - Each release should be based on a milestone
-  - opened milestones are considered Future releases
+  - opened milestones are considered future releases
   - closed milestones are considered released and the close date is the release date
-- A `TAG` should share the same name as the `milestone` e.g **V1.0.0** This will facilitate the creation of links
+- A `TAG` should share the same name as the `milestone` e.g **V1.0.0** This will facilitate the creation of some links
 - Pull request
   - Should be assigned to the milestone where they are meant to be released
   - comment should be meaningful, only the pull request comments are reported
@@ -22,11 +22,7 @@ In order to generate a precise report some guideline are requested to be followe
 
 ## Install and run this program
 
-clone this project:
-
-~~~~
-git clone https://github.com/josemsantos/jumia-travel-changelog-generator.git
-~~~~
+install this project:
 
 make sure you have nodejs installed
 
@@ -40,7 +36,11 @@ You should see something like:
 v6.10.0
 ~~~~
 
-If you don't have nodejs install check [here](https://nodejs.org/en/download/)
+If you don't have nodejs installed check [here](https://nodejs.org/en/download/)
+
+~~~~
+npm install jumia-travel-changelog --save
+~~~~
 
 ### Install dependencies
 
@@ -50,9 +50,9 @@ run npm install in the root folder of the project
 npm install
 ~~~~
 
-## Option
+## Options
 
-Before running you should know the available options:
+Before running you should know about the available options:
 
 <table>
     <tr>

@@ -1,4 +1,14 @@
 # Changelog
+
+## [V0.6.1](https://github.com/josemsantos/jumia-travel-changelog-generator/milestone/5) (2017-04-06)
+[Full Changelog](https://github.com/josemsantos/jumia-travel-changelog-generator/compare/V0.6.0...V0.6.1)
+
+**Improvements:**
+
+- The jumia-travel-changelog is now a runnable cli tool [#8](https://github.com/josemsantos/jumia-travel-changelog-generator/pull/8) ([josemsantos](https://api.github.com/users/josemsantos))
+
+---
+
 ## [V0.6.0](https://github.com/josemsantos/jumia-travel-changelog-generator/milestone/4) (2017-04-06)
 [Full Changelog](https://github.com/josemsantos/jumia-travel-changelog-generator/compare/V0.5.2...V0.6.0)
 

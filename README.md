@@ -42,14 +42,6 @@ If you don't have nodejs installed check [here](https://nodejs.org/en/download/)
 npm install jumia-travel-changelog --save
 ~~~~
 
-### Install dependencies
-
-run npm install in the root folder of the project
-
-~~~~
-npm install
-~~~~
-
 ## Options
 
 Before running you should know about the available options:
@@ -72,6 +64,6 @@ Before running you should know about the available options:
 You can execute the program as
 
 ~~~~
-node index.js --token=ff2c276a78d7b795e65c2da99fc7d44e68fc6c2e --repo=josemsantos/jumia-travel-changelog-generator --baselog=/var/www/my-project/CHANGELOG-MANUAL.md
+jumia-travel-changelog --token=ff2c276a78d7b795e65c2da99fc7d44e68fc6c2e --repo=josemsantos/jumia-travel-changelog-generator --baselog=/var/www/my-project/CHANGELOG-MANUAL.md
 ~~~~
 

@@ -1,10 +1,17 @@
 {
   "name": "jumia-travel-changelog",
-  "version": "0.5.2",
+  "version": "0.6.0",
   "description": "This tool is meant to automatize the process of creating and maintening a CHANGELOG.md file. Based on github pull requests and milestones it will report a complete list of releases with all events. All future milestones are considered future releases.",
-  "main": "index.js",
+  "bin": {
+    "generate-changelog": "./bin/generate"
+  },
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josemsantos/jumia-travel-changelog-generator"
   },
   "keywords": [
     "changelog",
@@ -20,6 +27,7 @@
   "author": "José Santos <jose.santos@jumia.com>",
   "license": "ISC",
   "dependencies": {
+    "commander": "^2.9.0",
     "json2md": "^1.5.8",
     "needle": "^1.6.0",
     "write": "^0.3.3",

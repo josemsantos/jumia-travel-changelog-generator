@@ -1,4 +1,13 @@
 # Changelog
+## [V0.6.0](https://github.com/josemsantos/jumia-travel-changelog-generator/milestone/4) (2017-04-06)
+[Full Changelog](https://github.com/josemsantos/jumia-travel-changelog-generator/compare/V0.5.2...V0.6.0)
+
+**Improvements:**
+
+- Refactored project structure. Added bin file to run program in command line. [#7](https://github.com/josemsantos/jumia-travel-changelog-generator/pull/7) ([josemsantos](https://api.github.com/users/josemsantos))
+
+---
+
 ## [V0.5.2](https://github.com/josemsantos/jumia-travel-changelog-generator/milestone/3) (2017-04-05)
 [Full Changelog](https://github.com/josemsantos/jumia-travel-changelog-generator/compare/V0.5.1...V0.5.2)
 
@@ -11,14 +20,13 @@
 ## [V0.5.1](https://github.com/josemsantos/jumia-travel-changelog-generator/milestone/2) (2017-04-05)
 [Full Changelog](https://github.com/josemsantos/jumia-travel-changelog-generator/compare/V0.5.0...V0.5.1)
 
-**Fixes:**
+**Improvements:**
 
-- Minor documentations fixes. Updated package version [#6](https://github.com/josemsantos/jumia-travel-changelog-generator/pull/6) ([josemsantos](https://api.github.com/users/josemsantos))
+- Improved module encapsulation for writter. Removed hardcoded value [#4](https://github.com/josemsantos/jumia-travel-changelog-generator/pull/4) ([josemsantos](https://api.github.com/users/josemsantos))
 
 ---
 
 ## [V0.5.0](https://github.com/josemsantos/jumia-travel-changelog-generator/milestone/1) (2017-04-05)
-[Full Changelog](https://github.com/josemsantos/jumia-travel-changelog-generator/compare/V0.5.1...V0.5.0)
 
 **Improvements:**
 

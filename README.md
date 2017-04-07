@@ -56,6 +56,10 @@ Before running you should know about the available options:
         <td>the repo owner name and repo name e.g. <strong>josemsantos/jumia-travel-changelog-generator</strong></td>
     </tr>
     <tr>
+        <td>start</td>
+        <td>The initial date to start the changelog, useful for projects that already has a CHANGELOG.md file. The format as to be YYYY-mm-dd e.g. 2015-03-21.</td>
+    </tr>
+    <tr>
         <td>baselog</td>
         <td>In case you already have a CHANGELOG.md file you can append it in your new one, just pass the path of your current file.</td>
     </tr>

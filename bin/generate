@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 'use strict';
 
-var Cli       = require('../lib/cli');
+var Cli = require('../lib/cli');
 Cli.parse(process.argv);
 var ChangelogGen = require('../lib')(Cli);

@@ -1,4 +1,5 @@
 # Changelog
+
 ## [V0.6.1](https://github.com/josemsantos/jumia-travel-changelog-generator/milestone/5) (2017-04-06)
 [Full Changelog](https://github.com/josemsantos/jumia-travel-changelog-generator/compare/V0.6.0...V0.6.1)
 

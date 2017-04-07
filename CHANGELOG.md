@@ -1,11 +1,14 @@
 # Changelog
-
-## [V0.7.0](https://github.com/josemsantos/jumia-travel-changelog-generator/milestone/6) (Future release)
+## [V0.7.0](https://github.com/josemsantos/jumia-travel-changelog-generator/milestone/6) (2017-04-07)
 [Full Changelog](https://github.com/josemsantos/jumia-travel-changelog-generator/compare/V0.6.1...V0.7.0)
 
 **Improvements:**
 
 - Added new option to start the log from an initial date. [#12](https://github.com/josemsantos/jumia-travel-changelog-generator/pull/12) ([josemsantos](https://api.github.com/users/josemsantos))
+
+**Fixes:**
+
+- Fixed sorting for future release degradation from last commit [#13](https://github.com/josemsantos/jumia-travel-changelog-generator/pull/13) ([josemsantos](https://api.github.com/users/josemsantos))
 
 ---
 

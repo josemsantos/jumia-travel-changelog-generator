@@ -69,11 +69,3 @@
 - Removed unused code [#2](https://github.com/josemsantos/jumia-travel-changelog-generator/pull/2) ([josemsantos](https://api.github.com/users/josemsantos))
 
 ---
-
-## [V0.8.0](https://github.com/josemsantos/jumia-travel-changelog-generator/milestone/7) (Future release)
-
-**Improvements:**
-
-- Added output messages, for success, warning or error actions. Now theapplication is responding to any action [#14](https://github.com/josemsantos/jumia-travel-changelog-generator/pull/14) ([josemsantos](https://api.github.com/users/josemsantos))
-
----

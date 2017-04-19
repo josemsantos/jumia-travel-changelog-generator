@@ -1,4 +1,13 @@
 # Changelog
+## [V0.8.0](https://github.com/josemsantos/jumia-travel-changelog-generator/milestone/7) (2017-04-19)
+[Full Changelog](https://github.com/josemsantos/jumia-travel-changelog-generator/compare/V0.7.0...V0.8.0)
+
+**Improvements:**
+
+- Added output messages, for success, warning or error actions. Now theapplication is responding to any action [#14](https://github.com/josemsantos/jumia-travel-changelog-generator/pull/14) ([josemsantos](https://api.github.com/users/josemsantos))
+
+---
+
 ## [V0.7.0](https://github.com/josemsantos/jumia-travel-changelog-generator/milestone/6) (2017-04-07)
 [Full Changelog](https://github.com/josemsantos/jumia-travel-changelog-generator/compare/V0.6.1...V0.7.0)
 

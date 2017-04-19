@@ -1,4 +1,13 @@
 # Changelog
+## [V0.8.2](https://github.com/josemsantos/jumia-travel-changelog-generator/milestone/9) (2017-04-19)
+[Full Changelog](https://github.com/josemsantos/jumia-travel-changelog-generator/compare/V0.8.1...V0.8.2)
+
+**Fixes:**
+
+- Adding missing dependency in previous release [#16](https://github.com/josemsantos/jumia-travel-changelog-generator/pull/16) ([josemsantos](https://api.github.com/users/josemsantos))
+
+---
+
 ## [V0.8.1](https://github.com/josemsantos/jumia-travel-changelog-generator/milestone/8) (2017-04-19)
 [Full Changelog](https://github.com/josemsantos/jumia-travel-changelog-generator/compare/V0.8.0...V0.8.1)
 

@@ -56,3 +56,6 @@
 - Removed unused code [#2](https://github.com/josemsantos/jumia-travel-changelog-generator/pull/2) ([josemsantos](https://api.github.com/users/josemsantos))
 
 ---
+
+
+Changelog test by future release

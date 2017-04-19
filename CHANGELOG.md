@@ -1,11 +1,32 @@
 # Changelog
+## [V0.8.1](https://github.com/josemsantos/jumia-travel-changelog-generator/milestone/8) (Future release)
+[Full Changelog](https://github.com/josemsantos/jumia-travel-changelog-generator/compare/V0.8.0...V0.8.1)
 
-## [V0.7.0](https://github.com/josemsantos/jumia-travel-changelog-generator/milestone/6) (Future release)
+**Others:**
+
+- Added a test for a future release [#15](https://github.com/josemsantos/jumia-travel-changelog-generator/pull/15) ([josemsantos](https://api.github.com/users/josemsantos))
+
+---
+
+## [V0.8.0](https://github.com/josemsantos/jumia-travel-changelog-generator/milestone/7) (2017-04-19)
+[Full Changelog](https://github.com/josemsantos/jumia-travel-changelog-generator/compare/V0.7.0...V0.8.0)
+
+**Improvements:**
+
+- Added output messages, for success, warning or error actions. Now theapplication is responding to any action [#14](https://github.com/josemsantos/jumia-travel-changelog-generator/pull/14) ([josemsantos](https://api.github.com/users/josemsantos))
+
+---
+
+## [V0.7.0](https://github.com/josemsantos/jumia-travel-changelog-generator/milestone/6) (2017-04-07)
 [Full Changelog](https://github.com/josemsantos/jumia-travel-changelog-generator/compare/V0.6.1...V0.7.0)
 
 **Improvements:**
 
 - Added new option to start the log from an initial date. [#12](https://github.com/josemsantos/jumia-travel-changelog-generator/pull/12) ([josemsantos](https://api.github.com/users/josemsantos))
+
+**Fixes:**
+
+- Fixed sorting for future release degradation from last commit [#13](https://github.com/josemsantos/jumia-travel-changelog-generator/pull/13) ([josemsantos](https://api.github.com/users/josemsantos))
 
 ---
 
@@ -56,6 +77,3 @@
 - Removed unused code [#2](https://github.com/josemsantos/jumia-travel-changelog-generator/pull/2) ([josemsantos](https://api.github.com/users/josemsantos))
 
 ---
-
-
-Changelog test by future release

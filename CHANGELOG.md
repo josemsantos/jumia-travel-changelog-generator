@@ -1,4 +1,13 @@
 # Changelog
+## [V0.9.0](https://github.com/josemsantos/jumia-travel-changelog-generator/milestone/10) (2017-04-26)
+[Full Changelog](https://github.com/josemsantos/jumia-travel-changelog-generator/compare/V0.8.2...V0.9.0)
+
+**Improvements:**
+
+- Added Classic Output Strategy [#17](https://github.com/josemsantos/jumia-travel-changelog-generator/pull/17) ([paulopereiraptc](https://api.github.com/users/paulopereiraptc))
+
+---
+
 ## [V0.8.2](https://github.com/josemsantos/jumia-travel-changelog-generator/milestone/9) (2017-04-19)
 [Full Changelog](https://github.com/josemsantos/jumia-travel-changelog-generator/compare/V0.8.1...V0.8.2)
 
@@ -86,3 +95,4 @@
 - Removed unused code [#2](https://github.com/josemsantos/jumia-travel-changelog-generator/pull/2) ([josemsantos](https://api.github.com/users/josemsantos))
 
 ---
+undefined

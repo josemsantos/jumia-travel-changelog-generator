@@ -1,6 +1,6 @@
 {
   "name": "jumia-travel-changelog",
-  "version": "0.8.1",
+  "version": "0.9.0",
   "description": "This tool is meant to automatize the process of creating and maintening a CHANGELOG.md file. Based on github pull requests and milestones it will report a complete list of releases with all events. All future milestones are considered future releases.",
   "bin": {
     "jumia-travel-changelog": "./bin/generate",
@@ -32,6 +32,7 @@
     "json2md": "^1.5.8",
     "needle": "^1.6.0",
     "terminal-kit": "^1.4.1",
-    "write": "^0.3.3"
+    "write": "^0.3.3",
+    "shelljs": "0.7.7"
   }
 }

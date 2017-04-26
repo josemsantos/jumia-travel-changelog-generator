@@ -63,6 +63,10 @@ Before running you should know about the available options:
         <td>baselog</td>
         <td>In case you already have a CHANGELOG.md file you can append it in your new one, just pass the path of your current file.</td>
     </tr>
+    <tr>
+        <td>classicoutput</td>
+        <td>Prints the output using the shelljs library instead of using the terminal-kit library</td>
+    </tr>
 </table>
 
 You can execute the program as

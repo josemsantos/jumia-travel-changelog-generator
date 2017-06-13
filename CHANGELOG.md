@@ -1,4 +1,13 @@
 # Changelog
+## [V0.9.1](https://github.com/josemsantos/jumia-travel-changelog-generator/milestone/11) (2017-06-13)
+[Full Changelog](https://github.com/josemsantos/jumia-travel-changelog-generator/compare/V0.9.0...V0.9.1)
+
+**Fixes:**
+
+- Fixed error on date sorting between releases [#18](https://github.com/josemsantos/jumia-travel-changelog-generator/pull/18) ([josemsantos](https://api.github.com/users/josemsantos))
+
+---
+
 ## [V0.9.0](https://github.com/josemsantos/jumia-travel-changelog-generator/milestone/10) (2017-04-26)
 [Full Changelog](https://github.com/josemsantos/jumia-travel-changelog-generator/compare/V0.8.2...V0.9.0)
 
@@ -95,4 +104,3 @@
 - Removed unused code [#2](https://github.com/josemsantos/jumia-travel-changelog-generator/pull/2) ([josemsantos](https://api.github.com/users/josemsantos))
 
 ---
-undefined

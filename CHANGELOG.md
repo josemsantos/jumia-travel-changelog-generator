@@ -1,4 +1,13 @@
 # Changelog
+## [V0.9.2](https://github.com/josemsantos/jumia-travel-changelog-generator/milestone/12) (Future release)
+[Full Changelog](https://github.com/josemsantos/jumia-travel-changelog-generator/compare/V0.9.1...V0.9.2)
+
+**Fixes:**
+
+- Fixed wrong reject function name [#19](https://github.com/josemsantos/jumia-travel-changelog-generator/pull/19) ([josemsantos](https://api.github.com/users/josemsantos))
+
+---
+
 ## [V0.9.1](https://github.com/josemsantos/jumia-travel-changelog-generator/milestone/11) (2017-06-13)
 [Full Changelog](https://github.com/josemsantos/jumia-travel-changelog-generator/compare/V0.9.0...V0.9.1)
 
